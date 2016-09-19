@@ -206,7 +206,7 @@ if ( ZM_OPT_X10 && canView( 'Devices' ) )
 if ( canView( 'System' ) )
 {
 ?>
-      <div id="options"><?php echo makePopupLink( '?view=options', 'zmOptions', 'options', translate('Options') ) ?><?php if ( logToDatabase() > Logger::NOLOG ) { ?> / <?php echo makePopupLink( '?view=log', 'zmLog', 'log', '<span class="'.logState().'">'.translate('Log').'</span>' ) ?><?php } ?></div>
+      <div id="options"><?php echo makePopupLink( '?view=options', 'zmOptions', 'options', translate('Settings') ) ?><?php if ( logToDatabase() > Logger::NOLOG ) { ?> / <?php echo makePopupLink( '?view=log', 'zmLog', 'log', '<span class="'.logState().'">'.translate('Log').'</span>' ) ?><?php } ?></div>
 <?php
 }
 if ( canView( 'Stream' ) && $cycleCount > 1 )

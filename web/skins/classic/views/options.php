@@ -51,12 +51,12 @@ else
 
 $focusWindow = true;
 
-xhtmlHeaders( __FILE__, translate('Options') );
+xhtmlHeaders( __FILE__, translate('Settings') );
 ?>
 <body>
   <div id="page">
     <div id="header">
-      <h2><?php echo translate('Options') ?></h2>
+      <h2><?php echo translate('Settings') ?></h2>
     </div>
     <div id="content">
       <ul class="tabList">
