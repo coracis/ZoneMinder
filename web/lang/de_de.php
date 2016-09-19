@@ -273,6 +273,7 @@ $SLANG = array(
     'Devices'              => 'Geräte',
     'Dimensions'           => 'Abmessungen',
     'DisableAlarms'        => 'Alarme abschalten',
+    'Disabled'             => 'keine EE',
     'Disk'                 => 'Platte',
     'Display'              => 'Anzeige',                // Added - 2011-01-30
     'Displaying'           => 'Gezeigt',             // Added - 2011-06-16
