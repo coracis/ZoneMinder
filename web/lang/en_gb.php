@@ -277,6 +277,7 @@ $SLANG = array(
     'Devices'               => 'Devices',
     'Dimensions'            => 'Dimensions',
     'DisableAlarms'         => 'Disable Alarms',
+    'Disabled'              => 'disabled',
     'Disk'                  => 'Disk',
     'Display'               => 'Display',
     'Displaying'            => 'Displaying',
