@@ -26,7 +26,7 @@ if ( !canView( 'System' ) )
 
 $focusWindow = true;
 
-xhtmlHeaders(__FILE__, translate('SystemLog') );
+xhtmlHeaders(__FILE__, translate('Log') );
 ?>
 <body>
   <div id="page">
@@ -38,7 +38,7 @@ xhtmlHeaders(__FILE__, translate('SystemLog') );
           <input type="button" value="<?php echo translate('Export') ?>" onclick="exportLog()"/>
           <input type="button" value="<?php echo translate('Close') ?>" onclick="closeWindow()"/>
       </div>
-      <h2 class="floating"><?php echo translate('SystemLog') ?></h2>
+      <h2 class="floating"><?php echo translate('Log') ?></h2>
       <div id="headerControl">
         <table id="logSummary" cellspacing="0">
           <tr>
