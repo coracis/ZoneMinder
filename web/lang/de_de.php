@@ -901,6 +901,16 @@ $OLANG = array(
 		          "\"--rtp-client-port=nnn\" Set local port to use for rtp data~~~~". 
 		          "\"--verbose=2\" Set verbosity of libVLC"
 	),
+	'OPTIONS_MAXFPS' => array(
+		'Help' => "Dieses Feld unterliegt gewissen Beschränkungen bei nichtlokalen Geräten. Bei Nichtbeachtung können ".
+		          "Übertragungsfehler oder -verzögerungen auftreten und einzelne Bilder oder Ereignisse verlorengehen.~~".
+		          "Bei IP-Kameras sollte dieses Feld nicht zum Beschränken der Bildwiederholrate benutzt werden. Diese ".
+                          "Einstellungen sollte in der Kamera selbst erfolgen. Sie können anstattdessen jedoch einen Wert, der etwas ".
+		          "höher als die in der Kamera eingestellte Bildwiederholrate einstellen. Dies hält bei Ausfall der Kamera ".
+		          "die CPU-Last runter.~~".
+                          "Vor allem ältere Kameras unterstützen einen Schnappschuss-Modus. In diesem Falle fragt ZM die Kameras ".
+                          "regelmäßig nach neuen Bildern ab und o. g. Beschränkung entfällt."
+	),
 	
 //    'LANG_DEFAULT' => array(
 //        'Prompt' => "This is a new prompt for this option",
